@@ -1,7 +1,7 @@
 import os
 
 import PyPDF2 
-#import textract
+import textract
 
 def getTextFromFile(textPath):
     extension = os.path.splitext(textPath)[-1]
